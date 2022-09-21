@@ -30,13 +30,14 @@ cursor: pointer;
 `
 export const ContentF= styled.div`
 display: flex;
+justify-content: space-evenly;
 `
 
 export const RightCon= styled.img`
 width: 40%;
 height: 680px;`
 export const LeftCon= styled.div`
-margin-left: 20px;
+margin-left: 100px;
 width: 60%;
 h1 {
     height: 80px;
@@ -82,4 +83,120 @@ button:hover{
 }
 `
 
-export const Content1= styled.div``
+export const Content1= styled.div`
+height: 940px;
+display:flex;
+flex-direction: column;
+align-items: center;
+background: #1B1B1B;
+p{
+    margin-top: 100px;
+    width: 228px;
+height: 20px;
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #A8A8A8;
+}
+h1{
+    width: 607px;
+height: 96px;
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 48px;
+/* or 126% */
+
+text-align: center;
+
+color: #FFFFFF;
+}`
+
+export const LargePic= styled.img`
+display: flex;
+justify-content: last baseline;
+width: 1200px;
+height: 656px;`
+
+
+export const ContentTh = styled.div`
+display: flex;
+align-items: center;
+justify-content: space-around;
+`
+
+export const Sleft=styled.div`
+display: flex;
+align-items: start;
+justify-content: center;;
+flex-direction: column;
+width:50%
+h3{
+    height: 20px;
+
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #A8A8A8;
+
+}
+h1{
+    height: 48px;
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 48px;
+/* identical to box height, or 126% */
+
+
+color: #000000;
+}
+p{
+    width: 306px;
+    height: 90px;
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #6B6B6B;
+}
+
+`
+
+
+
+export const Sright= styled.img`
+margin-top: 80px;
+width: 341px;
+height: 637px;`
+
+export const ContentFh= styled.div`
+display: flex;
+align-items: center;
+justify-content: space-around;
+`
