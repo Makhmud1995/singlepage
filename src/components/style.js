@@ -200,3 +200,53 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 `
+
+
+export const ContentFi= styled.div`
+display: flex;
+margin-top: 100px;
+justify-content: space-around;
+`
+export const Fi = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+h3{
+    width: 181px;
+height: 24px;
+left: calc(50% - 181px/2 - 0.5px);
+top: 75px;
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+color: #000000;
+}
+p{
+    width: 371px;
+height: 90px;
+left: calc(50% - 371px/2 - 0.5px);
+top: 116px;
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+text-align: center;
+
+color: #6B6B6B;
+}
+`
+export const Humburger= styled.img`
+width: 78px;
+height: 34px;
+`
